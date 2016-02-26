@@ -31,6 +31,12 @@ Visitor will be able to display :
  * The number of images.
  * The number of active users.
  * The number of images per user.
+ 
+#### To install Folium
+
+```bash
+pip install folium
+```
 
 Usefull links
 -------------
@@ -42,7 +48,8 @@ Usefull links
  * [D3](https://d3js.org)
  * [KMeans JS](https://www.npmjs.com/package/kmeans-js)
  * [Google geocoding](https://developers.google.com/maps/documentation/geocoding/intro#ReverseGeocoding)
-
+* [Folium GitHub] (https://github.com/python-visualization/folium)
+ 
 Contributors
 ------------
 
