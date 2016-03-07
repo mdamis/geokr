@@ -32,7 +32,48 @@ Visitor will be able to display :
  * The number of active users.
  * The number of images per user.
  
-#### To install Folium
+Requirements
+------------
+
+### Configuration file
+
+You must have the *.config* file in the same directory. This file is a json file containing :
+
+```json
+{
+    // Ask your api key on https://www.flickr.com/services/api/misc.api_keys.html
+    "API_KEY": <flickr_api_key>
+}
+```
+
+### Python and basic packages
+
+> Python is a programming language that lets you work quickly and integrate systems more effectively
+
+Install [Python](https://www.python.org/) thanks to this link <https://www.python.org/downloads/>
+
+#### Required python packages
+
+ * json
+ * requests
+ * numpy
+ * scipy.cluster.vq
+ * matplotlib.pyplot
+ * IPython.display
+ * sklearn.cluster
+ * sklearn
+
+### Notebook Python
+
+> The IPython Notebook is an interactive computational environment, in which you can combine code execution, rich text, mathematics, plots and rich media
+
+Install [Notebook](http://ipython.org/notebook.html) with this link <http://jupyter.readthedocs.org/en/latest/install.html>
+
+### Folium
+
+> Make beautiful maps with Leaflet.js & Python
+
+Install [Folium](https://pypi.python.org/pypi/folium) with following bash command.
 
 ```bash
 pip install folium
